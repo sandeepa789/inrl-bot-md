@@ -20,16 +20,16 @@ module.exports = {
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
     BGMBOT : toBool(process.env.BGMBOT || "false"),
     CALL_BLOCK : toBool(process.env.CALL_BLOCK || "false"),
-    STATUS_VIEW : process.env.STATUS_VIEW || "𝚝𝚛𝚞𝚎",
-    SAVE_STATUS : toBool(process.env.SAVE_STATUS || "𝚝𝚛𝚞𝚎"),
-    ADMIN_SUDO_ACCESS: toBool(process.env.ADMIN_SUDO_ACCESS || "𝚝𝚛𝚞𝚎"),
+    STATUS_VIEW : process.env.STATUS_VIEW || "true",
+    SAVE_STATUS : toBool(process.env.SAVE_STATUS || "true"),
+    ADMIN_SUDO_ACCESS: toBool(process.env.ADMIN_SUDO_ACCESS || "true"),
     DISABLE_PM: toBool(process.env.DISABLE_PM || "false"),
     DISABLE_GRP : toBool(process.env.DISABLE_GRP || "false"),
     ERROR_MSG : toBool(process.env.ERROR_MSG || "true"),
     AJOIN: toBool(process.env.AJOIN || 'false'),
     READ : process.env.READ ||  "false",//true, command
-    CHATBOT : process.env.CHATBOT || "𝚝𝚛𝚞𝚎",//true, pm, group
-    REACT : process.env.REACT || "𝚝𝚛𝚞𝚎",//true, command, emoji
+    CHATBOT : process.env.CHATBOT || "true",//true, pm, group
+    REACT : process.env.REACT || "true",//true, command, emoji
     WARNCOUND : process.env.WARNCOUND || 5,
     BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
     WORKTYPE : process.env.WORKTYPE || "private",
